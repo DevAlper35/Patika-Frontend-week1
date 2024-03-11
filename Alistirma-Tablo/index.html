@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tablolarla Çalışma</title>
+</head>
+<body>
+    <h2>Enes BAYRAM</h2>
+    <table border ="1">
+
+        <tr>
+            <th colspan="3"> Product</th>
+        </tr>
+
+        <tr>
+            <th>No</th>
+            <th>P.Name</th>
+            <th>P.Count</th>
+        </tr>
+
+        <tr>
+            <td>1</td>
+            <td>Pen</td>
+            <td rowspan="3">50</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Book</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Dust</td>
+        </tr>
+    </table>
+    <hr>
+    <h2>Frontend Okulu</h2>
+    <h3>Tablo Satır Birleştirme</h3>
+    <table border="1">
+        <tr>
+            <td>1.satır 1.sutun</td>
+            <td>1.satır 2.sutun</td>
+            <td>1.satır 3.sutun</td>
+        </tr>
+        <tr>
+            <td>2.satır 1.sutun</td>
+            <td rowspan="2">2.satır 2.sutun</td>
+            <td>2.satır 3.sutun</td>
+        </tr>
+        <tr>
+            <td>3.satır 1.sutun</td>
+            <td>3.satır 3.sutun</td>
+        </tr>
+    </table>
+    <hr>
+
+    <h3>Tablo Sutun Birleştirme</h3>
+    <table border="1">
+        <tr>
+            <td>1.satır 1.sutun</td>
+            <td>1.satır 2.sutun</td>
+            <td>1.satır 3.sutun</td>
+        </tr>
+        <tr>
+            <td>2.satır 1.sutun</td>
+            <td colspan="2">2.satır 2.sutun</td>
+            
+        </tr>
+        <tr>
+            <td>3.satır 1.sutun</td>
+            <td>3.satır 2.sutun</td>
+            <td>3.satır 3.sutun</td>
+        </tr>
+    </table>
+    <hr>
+
+    <h3>Tablo Sutun ve Satır Birleştirme</h3>
+    <table border="1">
+        <tr>
+            <td>1.satır 1.sutun</td>
+            <td>1.satır 2.sutun</td>
+            <td>1.satır 3.sutun</td>
+        </tr>
+        <tr>
+            <td colspan="2" rowspan="2">2.satır 1.sutun</td>
+            <td>2.satır 3.sutun</td>
+        </tr>
+        <tr>
+            <td>3.satır 3.sutun</td>
+        </tr>
+    </table>
+    <hr>
+    <table border="1">
+        <tr>
+        <td>
+            <table border="2">
+            <tr>
+                <td>İç Tablo Hücresi 1</td>
+                <td>İç Tablo Hücresi 2</td>
+            </tr>
+            </table>
+        </td>
+        <td>Dış Tablo Hücresi</td>
+        </tr>
+    </table>
+</body>
+</html>
